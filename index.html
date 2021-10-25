@@ -66,8 +66,9 @@
                     <label for="ind">
                         Industry segment <span class="red"> *</span>
                 </label><br>
-                    <input type="title" name="title" list="seg" required>
+                    <select id="ind" value="seg" name="ind" required>
                     <datalist id="seg">
+                        <option disabled selected value> Select an option</option>
           <option>Accounting</option>
           <option>Airlines/Aviation</option>
           <option>Alternative Dispute Resolution</option>
@@ -77,6 +78,7 @@
           <option>Arts & Crafts </option>
           <option>Automotive</option>
         </datalist>
+    </select>
                     <br>
                 </div>
             </div>
@@ -86,58 +88,69 @@
                     <label for="title">
             Job level <span class="red"> *</span> 
             </label><br>
-                    <input type="title" name="title" list="jobtitle" required>
+                    <select name="title" value="jobtitle" required>
                     <datalist id="jobtitle">
+                        <option disabled selected value> Select an option</option>
               <option>CXO</option>
               <option>Director</option>
               <option>Head</option>
               <option>Manager</option>
               <option>Team PIC</option>
             </datalist>
+        </select>
                     <br>
                 </div>
                 <div class="s_half">
                     <label for="size">
                         What is your company size? <span class="red"> *</span>
                 </label><br>
-                    <input type="size" name="c_size" list="c_size" required>
+
+                    <select name="size" value="c_size" required>
                     <datalist id="c_size">
+                        <option disabled selected value> Select an option</option>
           <option>SME (1 - 50 Employees)</option>
           <option>Corporate (50 - 250 Employees)</option>
           <option> Enterprise(250 - 500 Employees)</option>
-
         </datalist>
+      </select>
                     <br>
                 </div>
             </div>
 
             <div class="half">
                 <div class="s_half">
-                    <label for="sol">
+                    <label for="solu">
             What solution you want to use? <span class="red"> *</span> 
             </label>
                     <br>
-                    <input type="sol" name="sol" list="sol" required>
+
+                    <select name="solu" value="sol">
                     <datalist id="sol">
+                        <option disabled selected value> Select an option</option>
           <option>Reducing Customer Service</option>
           <option>Improvement Marketing Engagement</option>
           <option>Increase Sales Revenue</option>
           <option>Data Analytics & Processing </option>
-        </datalist>
+        </datalist></select>
                     <br>
                 </div>
 
                 <div class="s_half">
-                    <label for="cha">
+                    <label for="chan">
                         What channel do you want to use? <span class="red"> *</span>
                 </label>
                     <br>
-                    <input type="cha" name="cha" list="cha" required>
+
+                    <select name="chan" value="cha" required>
+
+                   
                     <datalist id="cha">
+                        <option disabled selected value> Select an option</option>
           <option>WhatsApp</option>
           <option>LINE, Facebook Messenger, Telegram</option>
           <option>Your own website</option>
         </datalist>
+     </select>
                     <br>
                 </div>
             </div>
@@ -149,63 +162,71 @@
 
             <div class="half">
                 <div class="s_half">
-                    <label for="bud">
+                    <label for="budg">
             What is your estimate budget? <span class="red"> *</span> 
             </label><br>
-                    <input type="bud" name="bud" list="bud" required>
+
+                    <select name="budg" value="bud" required>
                     <datalist id="bud">
+                        <option disabled selected value> Select an option</option>
                 <option> Less than IDR 50 million</option>
               <option> IDR 50 million</option>
               <option>More than IDR 200 million</option>
             </datalist>
+        </select>
                     <br>
                 </div>
                 <div class="s_half">
-                    <label for="sug">
+                    <label for="sugg">
                         Do you want to use Kata.ai products as a client or partner? <span class="red"> *</span>
                 </label><br>
-                    <input type="sug" name="sug" list="sug" required>
+                    <select name="sugg" value="sug" required>
                     <datalist id="sug">
+                        <option disabled selected value> Select an option</option>
           <option>Partner</option>
           <option>Client</option>
-
-
         </datalist>
+        </select>
                     <br>
                 </div>
             </div>
 
             <div class="half">
                 <div class="s_half">
-                    <label for="plan">
+                    <label for="pla">
             When do you want to implement the solution? <span class="red"> *</span> 
             </label><br>
-                    <input type="plan" name="plan" list="plan" required>
+                    <select name="pla" value="plan" required>
                     <datalist id="plan">
+                        <option disabled selected value> Select an option</option>
                 <option> In immediate time(&lt; than 2 months) </option>
               <option> 2 - 6 months</option>
               <option>&gt; 6 months</option>
             </datalist>
+            </select>
                     <br>
                 </div>
                 <div class="s_half">
-                    <label for="meet">
+                    <label for="met">
                         When do you want to meet our team for a follow-up discussion? <span class="red"> *</span>
                 </label><br>
-                    <input type="meet" name="meet" list="meet" required>
+                    <select name="met" value="meet" required>
                     <datalist id="meet">
+                        <option disabled selected value> Select an option</option>
                         <option> In immediate time (1 week) </option>
                         <option> 2 - 3 weeks</option>
                         <option>1 month</option>
         </datalist>
+        </select>
                     <br>
                 </div>
             </div>
-            <label for="hear">
+            <label for="hea">
                 How did you hear about us? <span class="red"> *</span>
         </label><br>
-            <input type="hear" name="hear" list="hear" required>
+            <select name="hea" value="hear" required>
             <datalist id="hear">
+                <option disabled selected value> Select an option</option>
                 <option>Kata.ai website</option>
                 <option>Linkden</option>
                 <option>Events</option>
@@ -213,6 +234,7 @@
                 <option>Google Ads</option>
                 <option>Instagram Ads</option>
 </datalist>
+</select>
             <br>
             <div class="center">
                 <button type="submit">
